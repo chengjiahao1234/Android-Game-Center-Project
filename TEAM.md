@@ -1,8 +1,11 @@
 # Markdown
 
 *Lewis Leng* lewis.leng@mail.utoronto.ca  6478965179
+
 *Feifei Li* ff.li@mail.utoronto.ca 4163006896
+
 *Wenkai Cao* wenkai.cao@mail.utoronto.ca 4379831998
+
 *Jiahao Cheng* jiahao.cheng@mail.utoronto.ca 6476764695
 
 we will use *WeChat* as our main way of communication, and we agree upon the following contract:
