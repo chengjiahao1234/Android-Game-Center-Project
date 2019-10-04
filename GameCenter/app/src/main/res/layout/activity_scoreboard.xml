@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="fall2018.csc207.project.gamecenter.slidingtiles.SlidingTilesScoreBoardActivity"
+    android:background="@drawable/background">
+
+    <Spinner
+        android:id="@+id/choose"
+        android:layout_width="89dp"
+        android:layout_height="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/boardname"
+        app:layout_constraintTop_toTopOf="parent"></Spinner>
+
+    <ListView
+        android:id="@+id/sb"
+        android:layout_width="match_parent"
+        android:layout_height="609dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/choose"></ListView>
+
+    <TextView
+        android:id="@+id/boardname"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="7dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Scoreboard"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:typeface="sans"
+        app:layout_constraintBottom_toTopOf="@+id/sb"
+        app:layout_constraintEnd_toStartOf="@+id/choose"
+        app:layout_constraintStart_toEndOf="@+id/back_stScoreboard"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/back_stScoreboard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="7dp"
+        android:text="Back"
+        app:layout_constraintEnd_toStartOf="@+id/boardname"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

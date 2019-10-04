@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="fall2018.csc207.project.gamecenter">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity android:name=".LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".slidingtiles.GameActivity" />
+        <activity android:name=".slidingtiles.StartingActivity" />
+        <activity android:name=".GameCenterActivity" />
+        <activity android:name=".slidingtiles.SlidingTilesScoreBoardActivity" />
+        <activity android:name=".slidingtiles.SlidingTileWinActivity" />
+        <activity android:name=".game2048.TZFEGameActivity" />
+        <activity android:name=".game2048.TZFEStartingActivity" />
+        <activity android:name=".calculator.CalculatorStartingActivity" />
+        <activity android:name=".calculator.CalculatorGameActivity"></activity>
+        <activity android:name=".game2048.TZFEScoreBoardActivity" />
+        <activity android:name=".game2048.TZFEWinActivity" />
+        <activity android:name=".game2048.TZFELoseActivity" />
+        <activity android:name=".calculator.CalculatorScoreBoardActivity" />
+    </application>
+
+</manifest>

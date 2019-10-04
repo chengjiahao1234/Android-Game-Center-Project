@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context="fall2018.csc207.project.gamecenter.game2048.TZFEStartingActivity">
+
+    <Button
+        android:id="@+id/level3_2048"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="144dp"
+        android:layout_marginBottom="230dp"
+        android:text="@string/easy2048" />
+
+    <Button
+        android:id="@+id/level5_2048"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="137dp"
+        android:layout_marginBottom="116dp"
+        android:text="@string/nightmare2048" />
+
+    <Button
+        android:id="@+id/level4_2048"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="146dp"
+        android:layout_marginBottom="172dp"
+        android:text="@string/hard2048" />
+
+    <TextView
+        android:id="@+id/GameText_2048"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="144dp"
+        android:layout_marginTop="130dp"
+        android:text="2048"
+        android:textColor="@android:color/background_dark"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/LoadButton_2048"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/StartingAct_LogoutBtn_2048"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="-1dp"
+        android:text="@string/load_game" />
+
+    <Button
+        android:id="@+id/scoreboardBtn_2048"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="50dp"
+        android:text="@string/score_board" />
+
+    <Button
+        android:id="@+id/StartingAct_LogoutBtn_2048"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="0dp"
+        android:text="@string/logout" />
+
+    <TextView
+        android:id="@+id/username_startingTV_2048"
+        android:layout_width="84dp"
+        android:layout_height="37dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="9dp"
+        android:layout_toStartOf="@+id/StartingAct_LogoutBtn_2048"
+        android:gravity="center"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/backToCenter_2048"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/scoreboardBtn_2048"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="-50dp"
+        android:layout_marginBottom="1dp"
+        android:text="Back" />
+
+</RelativeLayout>

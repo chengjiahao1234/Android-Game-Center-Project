@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".calculator.CalculatorStartingActivity"
+    android:background="@drawable/background">
+
+
+
+<TextView
+        android:id="@+id/CalculatorStartingTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="62dp"
+        android:layout_marginEnd="41dp"
+        android:text="@string/calculator_game"
+        android:textColor="@android:color/background_dark"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/CalculatorLogout"
+        android:layout_width="wrap_content"
+        android:layout_height="44dp"
+        android:text="@string/logout"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/CalculatorUsername"
+        android:layout_width="125dp"
+        android:layout_height="32dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="7dp"
+        android:gravity="end"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/CalculatorLogout" />
+
+    <Button
+        android:id="@+id/CalculatorGameCenter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/game_center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/CalculatorLoadGame"
+        android:layout_width="105dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="140dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/load_game"
+        app:layout_constraintBottom_toTopOf="@+id/CalculatorEasy"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/CalculatorEasy"
+        android:layout_width="105dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="140dp"
+        android:layout_marginBottom="4dp"
+        android:text="@string/easy"
+        app:layout_constraintBottom_toTopOf="@+id/CalculatorHard"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/CalculatorHard"
+        android:layout_width="105dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="140dp"
+        android:text="@string/hard"
+        app:layout_constraintBottom_toTopOf="@+id/CalculatorNightmare"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/CalculatorNightmare"
+        android:layout_width="105dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="140dp"
+        android:layout_marginBottom="168dp"
+        android:text="@string/nightmare"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/CalculatorScoreBoard"
+        android:layout_width="117dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="6dp"
+        android:text="@string/score_board"
+        app:layout_constraintBottom_toTopOf="@+id/CalculatorGameCenter"
+        app:layout_constraintStart_toStartOf="parent" />
+</android.support.constraint.ConstraintLayout>
