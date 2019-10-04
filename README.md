@@ -6,7 +6,7 @@ such that each user's scores are all recorded and can be displayed individually 
 
 ----
 ## GETTING STARTED
-In order to set up the Game Center, you can git clone https://markus.teach.cs.toronto.edu/git/csc207-2018-09-reg/group_0677
+In order to set up the Game Center, you can git clone https://github.com/chengjiahao1234/CSC207_project_gamecenter.git
 by using git to download a working copy of the game.
 In order to run the game, emulators in Android Studio or android phones should be used.
 We suggest users run the game on **Pixel 2**, or an emulator of this model.
