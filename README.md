@@ -18,10 +18,10 @@ Other emulators with **API27** and **Android 8.1** may also be used.
 
 ## Contributor
 ### Authors:
-* Jiahao Cheng
-* Lewis Leng
-* Feifei Li
-* Wenkai Cao.
+* Jiahao Cheng     ID: chengjiahao1234 https://github.com/chengjiahao1234
+* Lewis Leng       ID: lengJunY        https://github.com/lengJunY
+* Feifei Li        ID: BlizzardBlack   https://github.com/BlizzardBlack
+* Wenkai Cao.      ID: kevin949373048  https://github.com/kevin949373048
 
 License
 ----
